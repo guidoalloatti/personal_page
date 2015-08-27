@@ -1,0 +1,217 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+.top-block-title {
+	font-size: 42px;
+	font-weight: 100;
+}
+
+.hr_square {
+	position: relative;
+	width: 11px;
+	height: 11px;
+	bottom: 27px;
+	left: 50%;
+	margin-left: -5px;
+	background-color: #8b8b8b;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+
+.circular {
+    max-width: 300px; 
+    /*max-height: 300px;*/
+	margin: 20px;
+	left: 40%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background: url("images/person_1.jpg") no-repeat;
+}
+
+.menu-item {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;   
+}
+
+
+.centered {
+	font-weight: bold;
+	font-size: 18px;
+	position: relative;
+  	top: 40%;
+	text-align: center;
+	font-family: "Univers LT W01 55 Roman", Arial, sans-serif;
+}
+
+.horizontal {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.left-float {
+	float: left;
+	padding-left: 20px;
+}
+
+.center-float {
+	position: relative;
+	text-align: center;
+	left: 44%;
+}
+
+.right-float {
+	float: right;
+	padding-right: 20px;
+}
+
+#about-me {
+}
+
+.block-name {
+	font-size: 36px;
+	padding-top: 40px;
+}
+
+#about-me-title {
+	font-size: 26px;
+}
+
+#about-me-location {
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+#about-me-anchor {
+	position: absolute;
+	top: 860px;
+}
+
+
+#background-anchor {
+	position: absolute;
+	top: 1610px;
+}
+
+#my-work-anchor {
+	position: absolute;
+	top: 2110px;
+}
+
+#contact {
+	height: 800px;
+}
+
+#contact-anchor {
+	position: absolute;
+	top: 3110px;
+}
+
+#background {
+    background: #e0ebe8;
+    height: 500px;
+}
+
+#my-work {
+    background: white;
+    height: 500px;
+}
+
+#skills {
+    background: #e0ebe8;
+    height: 500px;
+}
+
+#my-skills-anchor {
+	position: absolute;
+	top: 2610px;
+}
+
+#prof_text {
+	top: 500px;
+	left: 500px;
+	font-size: 24px;
+
+}
+
+#content {
+	margin-top: 80px;
+}
+
+#name_over_bg {
+	position: absolute;
+	top: 480px;
+	left: 600px;
+	z-index: 900;
+	text-align: center;
+	font-size: 48px;
+	color: white;
+	font-family: "Univers LT W01 55 Roman", Arial, sans-serif;
+}
+
+#main-footer {
+	padding-top: 20px;
+	position: relative;
+	text-align: center;
+	background-color: #323232;
+	height: 200px;
+	color: white;
+}
+
+#main-header {
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    border-bottom: thin solid gray;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	height: 80px;
+	position: fixed;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#top-header {
+	color: white;
+	background-color: #323232;
+	height: 25px;
+	margin: 0;
+	padding-top: 5px;
+    font-family: "Univers LT W01 55 Roman", Arial, sans-serif;
+}
+
+#top-left-header {
+}
+
+#top-center-header {
+}
+
+#top-right-header {
+}
+
+#page-wrapper {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0;
+}
