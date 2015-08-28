@@ -1,0 +1,15 @@
+#my-work {
+    background: white;
+    padding-bottom: 20px;
+    height: 1500px;
+}
+
+#my-work-anchor {
+	position: absolute;
+	top: 1935px;
+}
+
+.work-details {
+	height: 250px;
+	padding-top: 10px;
+}

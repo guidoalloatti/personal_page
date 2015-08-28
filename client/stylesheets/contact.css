@@ -1,0 +1,17 @@
+#contact {
+	height: 800px;
+}
+
+#contact-anchor {
+	position: absolute;
+	top: 3110px;
+}
+
+#contact-form {
+	font-weight: lighter;
+}
+
+#contact-div {
+	font-weight: lighter;	
+	/*margin-top: -40px;*/
+}

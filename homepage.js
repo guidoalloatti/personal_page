@@ -1,4 +1,8 @@
+
 if (Meteor.isClient) {
+  function submitContactForm() {
+    alert("Submitting Contact Form");
+  }
   // // counter starts at 0
   // Session.setDefault('button_counter', 0);
   // Session.setDefault('link_counter', 0);
@@ -43,6 +47,20 @@ if (Meteor.isClient) {
   //   }
   // });
 }
+
+Meteor.methods({
+  sendEmail: function (to, from, subject, text) {
+    check([to, from, subject, text], [String]);
+    this.unblock();
+
+    Email.send({
+      to: to,
+      from: from,
+      subject: subject,
+      text: text
+    });
+  }
+});
 
 if (Meteor.isServer) {
   Meteor.startup(function () {

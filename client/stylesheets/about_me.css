@@ -1,0 +1,14 @@
+#about-me-title {
+	font-size: 26px;
+}
+
+#about-me-location {
+	font-size: 18px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+#about-me-anchor {
+	position: absolute;
+	top: 835px;
+}

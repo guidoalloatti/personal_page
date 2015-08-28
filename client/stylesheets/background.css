@@ -1,0 +1,10 @@
+#background-anchor {
+	position: absolute;
+	top: 1500px;
+}
+
+#background {
+    background: #e0ebe8;
+    padding-bottom: 20px;
+    height: 420px;
+}
