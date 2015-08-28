@@ -1,5 +1,7 @@
+
 <head>
-  <title>Guido Alloatti - Bio</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Guido Alloatti - Bio</title>
 </head>
 
 <body>
@@ -18,36 +20,36 @@
             </div> -->
             <div id="main-header">
                 <div class="centered">
-  			           <div class="horizontal">
-                      <a href="#about-me-anchor" id="about_me_menu_item" class="menu-item"> 
-                        ABOUT ME
-                      </a>
+                    <div class="horizontal">
+                        <span class="square individual">
+                            <a class="tenth before after" href="#about-me-anchor">ABOUT ME</a>
+                        </span>
                     </div>
                     <div class="horizontal">
-                      <a href="#background-anchor" class="menu-item"> 
-                        BACKGROUND
-                      </a>
+                        <span class="square individual">
+                            <a class="tenth before after" href="#background-anchor">BACKGROUND</a>
+                        </span>
                     </div>
                     <div class="horizontal">
-                      <a href="#my-work-anchor" class="menu-item"> 
-                        EXPERIENCE
-                      </a>
+                        <span class="square individual">
+                            <a class="tenth before after" href="#my-work-anchor">EXPERIENCE</a>
+                        </span>
                     </div>
                     <div class="horizontal">
-                      <a href="#my-skills-anchor" class="menu-item"> 
-                        SKILLS
-                      </a>
-                    </div> 
-                    <div class="horizontal">
-                      <a href="#contact-anchor" class="menu-item"> 
-                        CONTACT
-                      </a>
+                        <span class="square individual">
+                            <a class="tenth before after" href="#my-skills-anchor">SKILLS</a>
+                        </span>
                     </div>
-                    <!-- <div id="go-top-image" class="circular-small"> -->
-                    <!-- </div> -->
+                    <div class="horizontal">
+                        <span class="square individual">
+                            <a class="tenth before after" href="#contact-anchor">CONTACT</a>
+                        </span>
+                    </div>
                 </div>
             </div>
             <a href="#" class="circular-small"></a>
+            <a href="#spa" class="spanish-lang"></a>
+            <a href="#eng" class="english-lang"></a>
   		</div>
   		<div id="content">
             <div id="nice-image">
@@ -227,6 +229,12 @@
                         <hr style="width: 350px;">
                         <hr class="hr_square">
                     </div>
+                    <div>
+                        Programming Languages
+                        Tools and 
+                        Methodologies
+
+                    </div>
                 </div>
             </div>
             
@@ -239,25 +247,27 @@
                         <hr class="hr_square">
                     </div>
                 </div>
+                <div id="message_sent" style="display: none;">
+                    Thanks for your contact, an email was sent <br>and I will get in touch very soon!
+                </div>
                 <div id="contact-div" class="middle-column">
                     Please let me know your questions, suggestions and concerns by filling out the contact form below.
-                    <div id="contact-form">
-                        <br>First Name 
-                        <br><input type="text" id="first_name_contact_form" size="50"/>
-                        <br><br>Last Name
-                        <br> <input type="text" id="last_name_contact_form" size="50"/>
-                        <br><br>Email 
-                        <br><input type="text" id="email_contact_form" size="50"/>
+                    <form id="contact-form">
+                        <br>First Name<div class="horizontal contact-required" id="missing_first_name" style="display: none;">Required</div>
+                        <br><input type="text" id="first_name" size="50"/>
+                        <br><br>Last Name<div class="horizontal contact-required" id="missing_last_name" style="display: none;">Required</div>
+                        <br> <input type="text" id="last_name" size="50"/>
+                        <br><br>Email<div class="horizontal contact-required" id="missing_email" style="display: none;">Required</div>
+                        <br><input type="text" id="email" size="50"/>
                         <br><br>Phone (optional) 
-                        <br><input type="text" id="phone_number_contact_form" size="50"/>
-                        <br><br>Subject 
-                        <br><input type="text" id="subject_contact_form" size="50"/>
-                        <br><br>Message 
-                        <br><textarea rows="4" cols="50">Please enter your equire here..</textarea>
+                        <br><input type="text" id="phone_number" size="50"/>
+                        <br><br>Subject<div class="horizontal contact-required" id="missing_subject" style="display: none;">Required</div>
+                        <br><input type="text" id="subject" size="50"/>
+                        <br><br>Message<div class="horizontal contact-required" id="missing_message" style="display: none;">Required</div>
+                        <br><textarea id="message" rows="8" cols="48" placeholder="Please enter your enquiry here..."></textarea>
                         <br><br>
-                        <!-- <hr class="hr-content-separator"> -->
-                        <button class="btn" onclick="submitContactForm();">Submit Form</button>
-                    </div>
+                        <button class="btn">Submit Form</button>
+                    </form>                
                 </div>
             </div>
 
@@ -271,10 +281,28 @@
 
 		<div id="footer">
             <div id="main-footer">
-                Github
-                Linkedin
-                Facebook
-                Skype
+                <div class="social-media-links">
+                    <div class="wrapper">
+                        
+<!--                         <h2>Social Interaction</h2>
+ -->                    <br>
+                        <span class="square individual">
+                            <a class="tenth before after" href="https://github.com/guidoalloatti" target="_blank">Github: guidoalloatti</a>
+                        </span>
+                        <br><br>
+                        <span class="square individual">
+                            <a class="tenth before after" href="https://www.linkedin.com/profile/view?id=AAIAAAMBKWsBLeUqpRiWGp2fesG6WoKJuOWvctQ" target="_blank">Linkedin: Guido Alloatti</a>
+                        </span>
+                        <br><br>
+                        <span class="square individual">
+                            <a class="tenth before after" href="https://www.facebook.com/guido.alloatti" target="_blank">Facebook: guido.alloatti</a>
+                        </span>
+                        <br><br>
+                        <span class="square individual">
+                            <a class="tenth before after">Skype: guidoalloatti</a>
+                        </span>
+                    </div>
+                </div>
             </div>
 		</div>
 	</div>

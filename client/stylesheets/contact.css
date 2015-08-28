@@ -12,6 +12,35 @@
 }
 
 #contact-div {
-	font-weight: lighter;	
-	/*margin-top: -40px;*/
+	font-weight: lighter;
+}
+
+#missing-first-name {
+}
+
+.contact-input-title {
+	text-align: left;
+}
+
+.contact-required {
+	text-align: right;
+	font-weight: lighter;
+	color: red;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#message_sent {
+	-webkit-border-radius: 15px;
+  	-moz-border-radius: 15px;
+  	border-radius: 15px;
+  	-webkit-box-shadow: 0px 1px 3px #666666;
+  	-moz-box-shadow: 0px 1px 3px #666666;
+  	box-shadow: 0px 1px 3px #666666;
+	margin-bottom: 30px;
+	color: green;
+	border: 1px solid green;
+	width: 400px;
+	left: 38%;
+	position: relative;
 }

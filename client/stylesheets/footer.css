@@ -1,8 +1,8 @@
 #main-footer {
-	padding-top: 20px;
+	/*padding-top: 1px;*/
 	position: relative;
 	text-align: center;
 	background-color: #323232;
-	height: 200px;
-	color: white;
+	height: 245px;
+	/*color: white;*/
 }
