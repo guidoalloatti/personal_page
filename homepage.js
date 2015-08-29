@@ -1,6 +1,13 @@
 
 if (Meteor.isClient) {
-  
+  Template.Accordion.rendered = function () {
+    $(function() {
+      $("#accordion").accordion({
+        heightStyle: "content"
+      });
+    });
+  };
+
   Template.body.events({
     "submit #contact-form": function (event) {
         $('#message_sent').hide();
