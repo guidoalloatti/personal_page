@@ -1,10 +1,43 @@
 #skills {
     background: #e0ebe8;
     padding-bottom: 40px;
-    /*height: 1000px;*/
 }
 
 #my-skills-anchor {
 	position: absolute;
 	top: 2610px;
+}
+
+.skill-rating {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+.9-years-positive {
+    background-image: url("images/positive.jpg");
+    background-repeat: repeat-y;
+}
+
+.experience-years{
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	background-color: #81b3d2;
+	color: white;
+	/*margin: 0px 5px;*/
+	/*padding: 2px;*/
+	/*border: 1px solid gray;*/
+	/*border-top: 1px solid #ccc;*/
+	
+/*	box-shadow: 0 0 20px #ccc;
+	-webkit-box-shadow: 0 0 20px #ccc;
+	-moz-box-shadow: 0 0 20px #ccc;*/
+
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 26px;
+	height: 18px;
+	/*margin-top: -5px;	*/
 }
