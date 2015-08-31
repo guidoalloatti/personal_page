@@ -14,22 +14,20 @@ ol ol {
 
 .li_header {
 	color: #fff;
-
 	font-weight: bold;
-	font-size: 24px;
-	border: 1px solid darkgrey;
-	background: grey;
+	font-size: 20px;
+	border: 1px solid #ececec;
+	background: #a8a9a9;
 	padding: 5px 20px;
-	margin-bottom: 15px;
-
+	/*margin-bottom: 15px 0;*/
 	border-top: 1px solid #ccc;
 	box-shadow: 0 0 20px #ccc;
 	-webkit-box-shadow: 0 0 20px #ccc;
 	-moz-box-shadow: 0 0 20px #ccc;
-
-	border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;	
+	
+    border-radius: 15px 0 0 15px;
+	-webkit-border-radius: 15px 0 0 15px;
+	-moz-border-radius: 15px 0 0 15px;	
 }
 
 

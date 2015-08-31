@@ -1,3 +1,3 @@
 Router.route('/', function () {
-  this.render('Nada'); //, {data: {title: 'Basic'}});
+  this.render('Content'); //, {data: {title: 'Basic'}});
 });
