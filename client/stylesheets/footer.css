@@ -1,6 +1,56 @@
-#footer {
-	position: relative;
+.connect {
+	  margin-left: auto ;
+  margin-right: auto ;
 	text-align: center;
+	padding-top: 15px;
+	/*margin-left: 180px;*/
+}
+
+.connect-elements {
+	text-align: center;
+	margin-left: 250px;
+}
+
+.connect-element {
+	text-align: center;
+	width: 110px;
+	padding-top: 10px;
+	float: left;
+    position: relative;
+    display: inline-block;
+}
+
+.connect-title {
+	padding-left: 15px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.connect-element-title {
+	/*margin-left: -10px;*/
+	text-align: left;
+	font-weight: normal;
+	font-size: 18px;
+	color: lightgrey;
+	margin-bottom: 5px;
+
+}
+
+.connect-element-image {
+
+}
+
+.connect-element-text {
+	/*margin-left: -25px*/
+	text-align: left;
+}
+
+
+#footer {
+	/*position: relative;*/
+	/*text-align: center;*/
 	background-color: #323232;
-	height: 245px;
+	height: 160px;
 }

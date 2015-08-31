@@ -14,12 +14,12 @@ ol ol {
 
 .li_header {
 	color: #fff;
-	font-weight: bold;
+	font-weight: lighter;
 	font-size: 20px;
 	border: 1px solid #ececec;
 	background: #a8a9a9;
 	padding: 5px 20px;
-	/*margin-bottom: 15px 0;*/
+    
 	border-top: 1px solid #ccc;
 	box-shadow: 0 0 20px #ccc;
 	-webkit-box-shadow: 0 0 20px #ccc;
@@ -84,8 +84,8 @@ ol ol {
 }
 
 .rectangle-list li:hover{
-    background: grey;
-    color: #fff;
+    background: #81b3d2;
+    color: lightgray;
     /*font-weight: bold;*/
 }   
 

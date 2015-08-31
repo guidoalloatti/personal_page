@@ -8,6 +8,31 @@
 	top: 2610px;
 }
 
+.same-line {
+   display: inline-block;
+}
+
+.skill-info {
+	/*border: 1px solid #fff;*/
+	/*padding-left: -10px;*/
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 17px;
+	background-color: #81b3d2; 
+	/*#83af6d;*/
+	margin-right: 5px;
+	/*margin-left: 5px;*/
+	font-weight: bold;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0 0 20px #ccc;	
+	-webkit-box-shadow: 0 0 20px #ccc;
+	-moz-box-shadow: 0 0 20px #ccc;
+}
+
 .skill-name {
 	font-weight: bold;
 	float: left;
@@ -22,17 +47,15 @@
 
 .soft-skills-line {
 	width: 795px;
-	 /*265px;*/
 }
 
 .rating-years  {
-	font-weight: bold;
-	float: right;
+	border: 1px solid lightgray;
 	display: inline-block;
 	position: absolute;
 	left: 130px;
-	padding: 1px 2px 2px 20px;
-	background: lightblue;
+	padding-left: 15px;
+	background: #fff;
 	border-radius: 0 10px 10px 0;
 	-webkit-border-radius: 0 10px 10px 0;
 	-moz-border-radius: 0 10px 10px 0;
