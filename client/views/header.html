@@ -5,32 +5,36 @@
             <div class="centered">
                 <div class="horizontal">
                     <span class="square individual">
-                        <a class="tenth before after" href="#about-me-anchor">ABOUT ME</a>
+                        <a class="tenth before after" href="#about-me-anchor">{{_ "about-me"}}</a>
                     </span>
                 </div>
                 <div class="horizontal">
                     <span class="square individual">
-                        <a class="tenth before after" href="#background-anchor">BACKGROUND</a>
+                        <a class="tenth before after" href="#background-anchor">{{_ "background"}}</a>
                     </span>
                 </div>
                 <div class="horizontal">
                     <span class="square individual">
-                        <a class="tenth before after" href="#my-work-anchor">EXPERIENCE</a>
+                        <a class="tenth before after" href="#my-work-anchor">{{_ "experience"}}</a>
                     </span>
                 </div>
                 <div class="horizontal">
                     <span class="square individual">
-                        <a class="tenth before after" href="#my-skills-anchor">SKILLS</a>
+                        <a class="tenth before after" href="#my-skills-anchor">{{_ "skills"}}</a>
                     </span>
                 </div>
                 <div class="horizontal">
                     <span class="square individual">
-                        <a class="tenth before after" href="#contact-anchor">CONTACT</a>
+                        <a class="tenth before after" href="#contact-anchor">{{_ "contact"}}</a>
                     </span>
                 </div>
             </div>
         </div>
-        <a href="#spa" class="spanish-lang"></a>
-        <a href="#eng" class="english-lang"></a>
+                {{> Locale}}
     </div>
+</template>
+
+<template name="Locale">
+        <a href="#spa" id="spanish-link" class="spanish-lang"></a>
+        <a href="#eng" id="english-link" class="english-lang"></a>
 </template>

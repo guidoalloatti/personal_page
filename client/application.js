@@ -1,5 +1,8 @@
 
 if (Meteor.isClient) {
+
+  TAPi18n.setLanguage('es');
+
   Template.Accordion.rendered = function () {
     $(function() {
       $("#accordion").accordion({
