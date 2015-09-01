@@ -1,10 +1,12 @@
 
 if (Meteor.isClient) {
-
-  // TAPi18n.setLanguage('es');
-
-
-
+   Template.carousel.rendered = function() {
+    $('#carousel').slick({
+      dots: true,
+      arrows: true
+    });
+  }
+  
   Template.Accordion.rendered = function () {
     $(function() {
       $("#accordion").accordion({
