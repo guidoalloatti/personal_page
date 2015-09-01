@@ -1,5 +1,6 @@
 <template name="Header">
     <div id="header">
+        {{> Locale}}
         <a href="#top-anchor" class="circular-small"></a>
         <div id="main-header">
             <div class="centered">
@@ -30,11 +31,12 @@
                 </div>
             </div>
         </div>
-                {{> Locale}}
     </div>
 </template>
 
 <template name="Locale">
-        <a href="#spa" id="spanish-link" class="spanish-lang"></a>
-        <a href="#eng" id="english-link" class="english-lang"></a>
+    <div class="language-holder">
+        <img src="images/english.jpg" title="Set Language English" alt="Set Language to English" id="english-link" class="english-lang language-element " width="40px;" height="40px;">
+        <img src="images/spanish.jpg" title="Establecer idioma Español" alt="Establecer idioma Español" id="spanish-link" class="spanish-lang language-element " width="40px;" height="40px;">
+    </div>
 </template>

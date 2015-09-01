@@ -37,7 +37,7 @@ body {
 	box-shadow: 0 0 1px #ccc;
 	-webkit-box-shadow: 0 0 1px #ccc;
 	-moz-box-shadow: 0 0 1px #ccc;
-	width: 600px;
+	width: 100px;
 }
 
 .top-block-title {
@@ -126,13 +126,14 @@ body {
 
 #name_over_bg {
 	position: absolute;
-	top: 480px;
-	left: 620px;
+	top: 435px;
+	right: 20%;
 	z-index: 900;
 	text-align: center;
 	font-size: 48px;
 	color: white;
 	font-family: "Univers LT W01 55 Roman", Arial, sans-serif;
+    -webkit-box-reflect: below 14px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(5%, transparent) , to(rgba(0, 0, 0, 0.3)));
 }
 
 #page-wrapper {

@@ -1,3 +1,29 @@
+.language-element {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;	
+}
+
+.english-lang:hover {
+	box-shadow: 0 0 20px blue;
+	-webkit-box-shadow: 0 0 20px blue;
+	-moz-box-shadow: 0 0 20px blue;
+}
+
+.spanish-lang:hover {
+	box-shadow: 0 0 20px red;
+	-webkit-box-shadow: 0 0 20px red;
+	-moz-box-shadow: 0 0 20px red;
+}
+
+.language-holder {
+	margin-top: -60px;
+	position: fixed;
+	opacity: 1;	
+  	z-index: 1003;
+	right: 1%;
+}
+
 #nice-image {
 	margin-top: 60px;
 }
