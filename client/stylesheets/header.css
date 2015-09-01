@@ -1,3 +1,15 @@
+.navigation-element {
+	/*padding: 50px;*/
+	/*margin-top: 20px;*/
+}
+
+.navigation-elements {
+	/*left: 50px;*/
+	padding: 8px;
+	position: absolute;
+	/*top:50px;*/
+}
+
 .language-element {
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -24,6 +36,14 @@
 	right: 1%;
 }
 
+.header-centered {
+	font-size: 18px;
+	position: relative;
+  	top: 40px;
+	text-align: center;
+	font-family: "Univers LT W01 55 Roman", Arial, sans-serif;
+}
+
 #nice-image {
 	margin-top: 60px;
 }
@@ -34,7 +54,7 @@
 }
 
 .go-top {
-	
+
 }
 
 #main-header {
