@@ -5,6 +5,30 @@
 
 #background {
     background: #e0ebe8;
-    /*padding-bottom: 20px;*/
-    height: 420px;
+    padding-bottom: 60px;
+}
+
+.background-left-column {
+	padding-left: 10%;
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	text-align: left;
+}
+
+.background-middle-column {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	text-align: left;
+}
+
+.background-right-column {
+	padding-right: 10%;
+	float: right;
+	position: relative;
+	text-align: left;
+	display: inline-block;
+	width: 25%;
 }

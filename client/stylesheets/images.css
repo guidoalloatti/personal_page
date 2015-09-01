@@ -16,9 +16,10 @@
 }
 
 .circular {
-    max-width: 300px; 
-	margin: 20px;
-	left: 40%;
+	display: block;
+	margin: 20px auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
