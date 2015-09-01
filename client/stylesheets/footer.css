@@ -1,19 +1,18 @@
 .connect {
-	  margin-left: auto ;
-  margin-right: auto ;
+	margin-left: auto ;
+  	margin-right: auto ;
 	text-align: center;
 	padding-top: 15px;
-	/*margin-left: 180px;*/
 }
 
 .connect-elements {
 	text-align: center;
-	margin-left: 250px;
+	margin-left: 1%;
 }
 
 .connect-element {
 	text-align: center;
-	width: 110px;
+	width: 9%;
 	padding-top: 10px;
 	float: left;
     position: relative;
@@ -21,7 +20,6 @@
 }
 
 .connect-title {
-	padding-left: 15px;
 	color: #fff;
 	font-size: 22px;
 	font-weight: bold;
@@ -29,7 +27,6 @@
 }
 
 .connect-element-title {
-	/*margin-left: -10px;*/
 	text-align: left;
 	font-weight: normal;
 	font-size: 18px;
@@ -38,19 +35,12 @@
 
 }
 
-.connect-element-image {
-
-}
-
 .connect-element-text {
-	/*margin-left: -25px*/
 	text-align: left;
 }
 
 
 #footer {
-	/*position: relative;*/
-	/*text-align: center;*/
 	background-color: #323232;
 	height: 160px;
 }
