@@ -1,5 +1,5 @@
 #contact {
-	height: 800px;
+	/*height: 800px;*/
 }
 
 #contact-anchor {
@@ -40,7 +40,7 @@
 	margin-bottom: 30px;
 	color: green;
 	border: 1px solid green;
-	width: 400px;
-	left: 38%;
+	width: 350px;
+	left: 39%;
 	position: relative;
 }

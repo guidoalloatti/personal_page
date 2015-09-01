@@ -1,7 +1,9 @@
 
 if (Meteor.isClient) {
 
-  TAPi18n.setLanguage('es');
+  // TAPi18n.setLanguage('es');
+
+
 
   Template.Accordion.rendered = function () {
     $(function() {
@@ -11,7 +13,7 @@ if (Meteor.isClient) {
     });
   };
 
-  Template.body.events({
+  Template.Contact.events({
     "submit #contact-form": function (event) {
         $('#message_sent').hide();
         event.preventDefault();
@@ -116,25 +118,4 @@ if (Meteor.isClient) {
   //     Session.set('link_counter', 0);
   //   }
   // });
-}
-
-
-
-if (Meteor.isServer) {
-    Meteor.methods({
-      sendEmail: function (to, from, subject, text) {
-        check([to, from, subject, text], [String]);
-        this.unblock();
-        Email.send({
-          to: to,
-          from: from,
-          subject: subject,
-          text: text
-        });
-      }
-    });
-
-    Meteor.startup(function () {
-        process.env.MAIL_URL="smtp://alloatti.guido%40gmail.com:21011981@smtp.gmail.com:587/";
-    });
 }
