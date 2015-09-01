@@ -8,17 +8,26 @@
 	top: 1915px;
 }
 
+.hr-content-separator {
+    border-top: 1px solid #ccc;
+	box-shadow: 0 0 1px #ccc;
+	-webkit-box-shadow: 0 0 1px #ccc;
+	-moz-box-shadow: 0 0 1px #ccc;
+	width: 80%;
+}
+
 .work-details {
-	padding-top: 10px;
+	position: relative;
+	padding-top: 20px;
+	/*width: 20%;*/
 }
 
 .left-image-column {
 	padding-top: 15px;
-	padding-left: 200px;
+	padding-left: 10%;
 	float: left;
 	position: relative;
 	display: inline-block;
-	width: 350px;
 	text-align: right;
 }
 

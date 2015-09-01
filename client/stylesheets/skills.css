@@ -13,16 +13,12 @@
 }
 
 .skill-info {
-	/*border: 1px solid #fff;*/
-	/*padding-left: -10px;*/
 	position: relative;
 	text-align: center;
 	color: white;
 	width: 17px;
 	background-color: #81b3d2; 
-	/*#83af6d;*/
 	margin-right: 5px;
-	/*margin-left: 5px;*/
 	font-weight: bold;
 	float: left;
 	border-radius: 10px;
@@ -42,11 +38,11 @@
 	float: right;
 	position: relative;
 	display: inline-block;
-	width: 150px;
+	/*width: 150px;*/
 }
 
 .soft-skills-line {
-	width: 795px;
+	width: 80%;
 }
 
 .rating-years  {
@@ -61,16 +57,16 @@
 	-moz-border-radius: 0 10px 10px 0;
 }
 
-.years-1 { width: 60px; }
-.years-2 { width: 120px; }
-.years-3 { width: 180px; }
-.years-4 { width: 240px; }
-.years-5 { width: 300px; }
-.years-6 { width: 360px; }
-.years-7 { width: 420px; }
-.years-8 { width: 480px; }
-.years-9 { width: 540px; }
-.years-10 { width: 600px; }
+.years-1 { width: 8%; }
+.years-2 { width: 16%; }
+.years-3 { width: 24%; }
+.years-4 { width: 32%; }
+.years-5 { width: 40%; }
+.years-6 { width: 48%; }
+.years-7 { width: 56%; }
+.years-8 { width: 64%; }
+.years-9 { width: 71%; }
+.years-10 { width: 80%; }
 
 .experience-years{
 	text-align: center;
@@ -78,22 +74,9 @@
 	display: inline-block;
 	background-color: #81b3d2;
 	color: white;
-
-	/*margin: 0px 5px;*/
-	/*padding: 2px;*/
-	/*border: 1px solid gray;*/
-	/*border-top: 1px solid #ccc;*/
-	
-	/*	
-	box-shadow: 0 0 20px #ccc;
-	-webkit-box-shadow: 0 0 20px #ccc;
-	-moz-box-shadow: 0 0 20px #ccc;
-	*/
-
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	width: 26px;
 	height: 18px;
-	/*margin-top: -5px;	*/
 }
