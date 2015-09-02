@@ -1,0 +1,264 @@
+<!-- <template name="Visualizer">
+	{{> carousel}}
+</template> -->
+
+<template name="carousel">
+	<div id="visualizer-anchor"></div>
+    <div id="visualizer" class="centered">
+        <div class="block-name">
+            <div class="top-block-title">
+                    VISUALIZER
+                <hr style="width: 350px;">
+                <hr class="hr_square">
+            </div>
+        </div> 	 
+	  	<div id="carousel">
+	  		{{> Programmings}}
+	  		{{> Mvc}}
+	  		{{> Javascripts}}
+	  		{{> Platforms}}
+	  		{{> Misc}}
+		</div> 
+	</div>
+</template>
+
+<template name="Mvc">
+	<div class="carousel-element">
+		<div class="carousel-element-header">
+			MVC Frameworks
+		</div>
+	  	<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	CakePHP
+		  	</span>	
+		  	<a href="" target="_blank">
+		  		<div id="cakephp-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		 </div>
+		 <div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Zend
+		  	</span>	
+		  	<a href="http://framework.zend.com/" target="_blank">
+		  		<div id="zend-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Simfony
+		  	</span>	
+		  	<a href="http://symfony.com/" target="_blank">
+		  		<div id="symfony-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Ruby on Rails
+		  	</span>	
+		  	<a href="http://rubyonrails.org/" target="_blank">
+		  		<div id="rails-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Turbogears
+		  	</span>	
+		  	<a href="http://turbogears.org/" target="_blank">
+		  		<div id="turbogears-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+	</div>
+</template>
+
+<template name="Platforms">
+	<div class="carousel-element">
+		<div class="carousel-element-header">
+			Platforms
+		</div>
+	  	<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Magento Ecommerce
+		  	</span>	
+		  	<a href="http://magento.com/" target="_blank">
+		  		<div id="magento-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		 </div>
+		 <div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	SugarCRM
+		  	</span>	
+		  	<a href="http://www.sugarcrm.com/" target="_blank">
+		  		<div id="sugarcrm-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Drupal
+		  	</span>	
+		  	<a href="https://www.drupal.org/" target="_blank">
+		  		<div id="drupal-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Moodle
+		  	</span>	
+		  	<a href="https://moodle.org/" target="_blank">
+		  		<div id="moodle-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Wordpress
+		  	</span>	
+		  	<a href="https://wordpress.com/" target="_blank">
+		  		<div id="wordpress-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>	
+	</div>
+</template>
+
+
+<template name="Javascripts">
+	<div class="carousel-element">
+		<div class="carousel-element-header">
+			Javascript Frameworks and Tools
+		</div>
+	  	<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	jQuery
+		  	</span>	
+		  	<a href="https://jquery.com/" target="_blank">
+		  		<div id="jquery-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		 </div>
+		 <div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Angular.js
+		  	</span>	
+		  	<a href="https://angularjs.org/" target="_blank">
+		  		<div id="angular-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Meteor.js
+		  	</span>	
+		  	<a href="https://www.meteor.com/" target="_blank">
+		  		<div id="meteor-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Node.js
+		  	</span>	
+		  	<a href="https://nodejs.org/" target="_blank">
+		  		<div id="node-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	CoffeeScript
+		  	</span>	
+		  	<a href="http://coffeescript.org/" target="_blank">
+		  		<div id="coffee-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+	</div>
+</template>
+
+<template name="Misc">
+	<div class="carousel-element">
+		<div class="carousel-element-header">
+			Miscellaneous
+		</div>
+	  	<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Git
+		  	</span>	
+		  	<a href="https://git-scm.com/" target="_blank">
+		  		<div id="git-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		 </div>
+		 <div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Mysql
+		  	</span>	
+		  	<a href="https://www.mysql.com/" target="_blank">
+		  		<div id="mysql-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Scrum
+		  	</span>	
+		  	<a href="https://www.scrum.org/" target="_blank">
+		  		<div id="scrum-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	HTML5
+		  	</span>	
+		  	<a href="http://www.w3schools.com/html/" target="_blank">
+		  		<div id="html5-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	CSS3
+		  	</span>	
+		  	<a href="http://www.w3schools.com/css/css3_intro.asp" target="_blank">
+		  		<div id="css3-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+	</div>
+</template>
+
+<template name="Programmings">
+	<div class="carousel-element">
+		<div class="carousel-element-header">
+			Scripting Programming Languages
+		</div>
+	  	<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	PHP
+		  	</span>	
+		  	<a href="http://nz2.php.net/" target="_blank">
+		  		<div id="php-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		 </div>
+		 <div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Ruby
+		  	</span>	
+		  	<a href="https://www.ruby-lang.org/en/" target="_blank">
+		  		<div id="ruby-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Python
+		  	</span>	
+		  	<a href="https://www.python.org/" target="_blank">
+		  		<div id="python-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Javascript
+		  	</span>	
+		  	<a href="https://www.javascript.com/" target="_blank">
+		  		<div id="javascript-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+		<div class="horizontal">
+		  	<span class="carousel-element-title">	
+			  	Perl
+		  	</span>	
+		  	<a href="https://www.perl.org/" target="_blank">
+		  		<div id="perl-carousel-image" class="carousel-element-common"></div>
+		  	</a>
+		</div>
+	</div>
+</template>
