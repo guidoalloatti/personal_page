@@ -1,6 +1,15 @@
 
 if (Meteor.isClient) {
 
+  $(window).on("scroll touchmove", function () {
+    $('#main-header').toggleClass('small', $(document).scrollTop() > 200, 200);
+    $('.header-centered').toggleClass('small', $(document).scrollTop() > 200, 250);
+    $('.english-lang').toggleClass('small', $(document).scrollTop() > 200, 210);
+    $('.spanish-lang').toggleClass('small', $(document).scrollTop() > 200, 210);
+    $('.go-top-element').toggleClass('small', $(document).scrollTop() > 200, 200);
+    $('.go-bottom-element').toggleClass('small', $(document).scrollTop() > 200, 200);
+  });
+
   Template.Header.events({
     "click #go_top_link": function(event) {
       event.preventDefault();
