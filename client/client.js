@@ -1,12 +1,64 @@
 
 if (Meteor.isClient) {
-   Template.carousel.rendered = function() {
+
+  Template.Header.events({
+    "click #go_top_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#top').offset().top
+      }, 1000);
+    },
+    "click #go_bottom_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#bottom').offset().top
+      }, 1000);
+    },
+    "click #background_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#background-anchor').offset().top
+      }, 1000);
+    },
+    "click #about_me_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#about-me-anchor').offset().top
+      }, 1000);
+    },
+    "click #contact_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#contact-anchor').offset().top
+      }, 1000);
+    },
+    "click #visualizer_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#visualizer-anchor').offset().top
+      }, 1000);
+    },
+    "click #skills_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#my-skills-anchor').offset().top
+      }, 1000);
+    },
+    "click #my_work_link": function(event) {
+      event.preventDefault();
+      $(document.body).animate({
+        'scrollTop': $('#my-work-anchor').offset().top
+      }, 1000);
+    }
+  });
+
+  Template.carousel.rendered = function() {
     $('#carousel').slick({
       dots: true,
       arrows: true
     });
   }
-  
+
   Template.Accordion.rendered = function () {
     $(function() {
       $("#accordion").accordion({
