@@ -1,0 +1,29 @@
+#about-me-anchor {
+	position: absolute;
+	top: 875px;
+}
+
+#background-anchor {
+	position: absolute;
+	top: 1685px;
+}
+
+#my-work-anchor {
+	position: absolute;
+	top: 2100px;
+}
+
+#my-skills-anchor {
+	position: absolute;
+	top: 4385px;
+}
+
+#contact-anchor {
+	position: absolute;
+	top: 5610px;
+}
+
+#visualizer-anchor {
+	position: absolute;
+	top: 6440px;
+}
