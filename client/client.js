@@ -120,7 +120,7 @@ if (Meteor.isClient) {
             message.value;
 
         Meteor.call('sendEmail',
-            'guidoalloatti@gmail.com',
+            'email_address@gmail.com',
             email.value,
             subject.value,
             fullMessage);

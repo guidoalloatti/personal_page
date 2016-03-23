@@ -4,8 +4,7 @@ if (Meteor.isServer) {
       sendEmail: function (to, from, subject, text) {
         check([to, from, subject, text], [String]);
         this.unblock();
-        Email.send({
-          // console.log("In here!");  
+        Email.send({ 
           to: to,
           from: from,
           subject: subject,
@@ -13,6 +12,6 @@ if (Meteor.isServer) {
         });
       }
     });
-    process.env.MAIL_URL="smtp://alloatti.guido%40gmail.com:21011981@smtp.gmail.com:587/";
+    process.env.MAIL_URL="smtp://alloatti.guido%40gmail.com:password@smtp.gmail.com:587/";
   });
 }
