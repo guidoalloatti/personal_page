@@ -2,12 +2,12 @@
 if (Meteor.isClient) {
 
   $(window).on("scroll touchmove", function () {
-    $('#main-header').toggleClass('small', $(document).scrollTop() > 200, 200);
-    $('.header-centered').toggleClass('small', $(document).scrollTop() > 200, 250);
-    $('.english-lang').toggleClass('small', $(document).scrollTop() > 200, 210);
-    $('.spanish-lang').toggleClass('small', $(document).scrollTop() > 200, 210);
-    $('.go-top-element').toggleClass('small', $(document).scrollTop() > 200, 200);
-    $('.go-bottom-element').toggleClass('small', $(document).scrollTop() > 200, 200);
+    $('#main-header').toggleClass('small', $(document).scrollTop() > 100, 200);
+    $('.header-centered').toggleClass('small', $(document).scrollTop() > 100, 250);
+    $('.english-lang').toggleClass('small', $(document).scrollTop() > 100, 210);
+    $('.spanish-lang').toggleClass('small', $(document).scrollTop() > 100, 210);
+    $('.go-top-element').toggleClass('small', $(document).scrollTop() > 100, 200);
+    $('.go-bottom-element').toggleClass('small', $(document).scrollTop() > 100, 200);
   });
 
   Template.Header.events({
@@ -17,7 +17,7 @@ if (Meteor.isClient) {
         'scrollTop': $('#top').offset().top
       }, 1000);
     },
-    "click #go_bottom_link": function(event) {
+    "click #go_bottom_link": function(event) {  
       event.preventDefault();
       $(document.body).animate({
         'scrollTop': $('#bottom').offset().top

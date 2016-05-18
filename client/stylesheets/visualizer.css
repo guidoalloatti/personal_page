@@ -1,98 +1,124 @@
 /*Platforms*/
 #wordpress-carousel-image {
 	background: url("images/wordpress.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #moodle-carousel-image {
 	background: url("images/moodle.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #magento-carousel-image {
 	background: url("images/magento.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #sugarcrm-carousel-image {
 	background: url("images/sugarcrm.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #drupal-carousel-image {
 	background: url("images/drupal.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 
 /*MVC Frameworks*/
 #turbogears-carousel-image {
 	background: url("images/turbogears.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #zend-carousel-image {
 	background: url("images/zend.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #rails-carousel-image {
 	background: url("images/rails.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #symfony-carousel-image {
 	background: url("images/symfony.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #cakephp-carousel-image {
 	background: url("images/cakephp.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 
 /*JS Frameworks*/
 #coffee-carousel-image {
 	background: url("images/coffee.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #perl-carousel-image {
 	background: url("images/perl.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #python-carousel-image {
 	background: url("images/python.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #php-carousel-image {
 	background: url("images/php.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #ruby-carousel-image {
 	background: url("images/ruby.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 
 /*Languages*/
 #javascript-carousel-image {
 	background: url("images/javascript.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #jquery-carousel-image {
 	background: url("images/jquery.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #node-carousel-image {
 	background: url("images/node.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #meteor-carousel-image {
 	background: url("images/meteor.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #angular-carousel-image {
 	background: url("images/angular.jpg") no-repeat;
+	background-size: 150px 150px;
 }
+
 
 /*Misc*/
 #git-carousel-image {
 	background: url("images/git.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #scrum-carousel-image {
 	background: url("images/scrum.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #html5-carousel-image {
 	background: url("images/html5.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #css3-carousel-image {
 	background: url("images/css3.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 #mysql-carousel-image {
 	background: url("images/mysql.jpg") no-repeat;
+	background-size: 150px 150px;
 }
 
 .carousel-element-common {
-	border-radius: 40px;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	margin: 20px 0;
-	width: 225px;
-	height: 225px;
+	width: 150px;
+	height: 150px;
 }
 
 .carousel-element-header {
