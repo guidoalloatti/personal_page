@@ -1,19 +1,31 @@
 #my-work {
     background: white;
-    padding-bottom: 20px;
+}
+
+#more_experience {
+	display: none;
+}
+
+#more_experience_button {
+	text-align: center;
+	margin: 30px;
+	margin-left: 42%;
+	margin-bottom: 15px;
 }
 
 .hr-content-separator {
-    border-top: 1px solid #ccc;
+    /*border-top: 1px solid #fff;*/
 	box-shadow: 0 0 1px #ccc;
 	-webkit-box-shadow: 0 0 1px #ccc;
 	-moz-box-shadow: 0 0 1px #ccc;
-	width: 80%;
+	width: 50%;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
 .work-details {
 	position: relative;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 	/*width: 20%;*/
 }
 
@@ -24,6 +36,24 @@
 	position: relative;
 	display: inline-block;
 	text-align: right;
+}
+
+
+.left-experience {
+	margin-top: 20px;
+	vertical-align: top;
+	text-align: center;
+	width: 20%;
+	position: relative;
+	display: inline-block;
+}
+
+.right-experience {
+	vertical-align: top;
+	text-align: left;
+	width: 75%;
+	position: relative;
+	display: inline-block;
 }
 
 #kathmandu {

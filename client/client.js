@@ -10,6 +10,30 @@ if (Meteor.isClient) {
     $('.go-bottom-element').toggleClass('small', $(document).scrollTop() > 200, 200);
   });
 
+
+
+  Template.Skills.events({
+    "click #more_skills_button": function(event) {
+      $('#more_skills').slideToggle("slow");
+      if ($('#more_skills_button').val() == "Show Me More Skills") {
+        $('#more_skills_button').val("Show me Less skills");
+      } else {
+        $('#more_skills_button').val("Show me More skills");
+      }
+    }
+  });
+
+  Template.Experience.events({
+    "click #more_experience_button": function(event) {
+      $('#more_experience').slideToggle("slow");
+      if ($('#more_experience_button').val() == "Show me More Experience") {
+        $('#more_experience_button').val("Show me Less Experience");
+      } else {
+        $('#more_experience_button').val("Show me More Experience");
+      }
+    }
+  });
+
   Template.Header.events({
     "click #go_top_link": function(event) {
       event.preventDefault();
@@ -68,13 +92,13 @@ if (Meteor.isClient) {
     });
   }
 
-  Template.Accordion.rendered = function () {
-    $(function() {
-      $("#accordion").accordion({
-        heightStyle: "content"
-      });
-    });
-  };
+  // Template.Accordion.rendered = function () {
+  //   $(function() {
+  //     $("#accordion").accordion({
+  //       heightStyle: "content"
+  //     });
+  //   });
+  // };
 
   Template.Contact.events({
     "submit #contact-form": function (event) {

@@ -1,16 +1,4 @@
 var chartData = {
-    "barCircleMvc":[
-        {"index":0.3, "value":10, "fill":"#1d5b89", "label":"Zend"},
-        {"index":0.4, "value":8, "fill":"#296c9f", "label":"CakePHP"},
-        {"index":0.5, "value":7, "fill":"#3b7eb0", "label":"Synfony"},
-        {"index":0.6, "value":6, "fill":"#4c8cbd", "label":"Code Igniter"},
-        {"index":0.7, "value":5, "fill":"#639fcc", "label":"Doctrine"},
-        {"index":0.8, "value":5, "fill":"#74a6cc", "label":"Rails"},
-        {"index":0.9, "value":2, "fill":"#8bb9db", "label":"Sinatra"},
-        {"index":1,   "value":2,  "fill":"#a5cae5", "label":"Tubogears"},
-        {"index":1.1, "value":1,  "fill":"#c5e0f4", "label":"Django"},
-        {"index":1.2, "value":1 , "fill":"#dff1ff", "label":"Drupal"}
-    ],
     "barCircleWeb":[ // Green Scale - Web Skills
         {"index":0.3, "value":10, "fill":"#229a22", "label":"PHP"},
         {"index":0.4, "value":9,  "fill":"#2da72d", "label":"Javascript"},
@@ -23,17 +11,41 @@ var chartData = {
         {"index":1.1, "value":2,  "fill":"#c2f6c2", "label":"C#"},
         {"index":1.2, "value":1,  "fill":"#eaffe5", "label":"Java"}
     ],
+    "barCircleMvc":[
+        {"index":0.3, "value":10, "fill":"#1d5b89", "label":"Zend"},
+        {"index":0.4, "value":8, "fill":"#296c9f", "label":"CakePHP"},
+        {"index":0.5, "value":7, "fill":"#3b7eb0", "label":"Synfony"},
+        {"index":0.6, "value":6, "fill":"#4c8cbd", "label":"Code Igniter"},
+        {"index":0.7, "value":5, "fill":"#639fcc", "label":"Doctrine"},
+        {"index":0.8, "value":5, "fill":"#74a6cc", "label":"Rails"},
+        {"index":0.9, "value":2, "fill":"#8bb9db", "label":"Sinatra"},
+        {"index":1,   "value":2,  "fill":"#a5cae5", "label":"Tubogears"},
+        {"index":1.1, "value":1,  "fill":"#c5e0f4", "label":"Django"},
+        {"index":1.2, "value":1 , "fill":"#dff1ff", "label":"Drupal"}
+    ],
     "barCircleJs":[
         {"index":0.3, "value":10, "fill":"#720808", "label":"jQuery"},
         {"index":0.4, "value":9,  "fill":"#811313", "label":"HTML5"},
         {"index":0.5, "value":8,  "fill":"#922121", "label":"CS3"},
-        {"index":0.6, "value":7, "fill":"#a53333", "label":"Ajax"},
+        {"index":0.6, "value":7,  "fill":"#a53333", "label":"Ajax"},
         {"index":0.7, "value":6,  "fill":"#ba4b4b", "label":"jQueryUI"},
-        {"index":0.8, "value":5, "fill":"#c76464", "label":"Angular.js"},
+        {"index":0.8, "value":5,  "fill":"#c76464", "label":"Angular.js"},
         {"index":0.9, "value":5,  "fill":"#c57e7e", "label":"XML"},
-        {"index":1.0, "value":4, "fill":"#d89c9c", "label":"Node.js"},
+        {"index":1.0, "value":4,  "fill":"#d89c9c", "label":"Node.js"},
         {"index":1.1, "value":3,  "fill":"#eec0c0", "label":"Meteor.js"},
         {"index":1.2, "value":2,  "fill":"#ffe7e7", "label":"CoffeScript"}
+    ],
+    "barCirclePlatforms":[
+        {"index":0.3, "value":10, "fill":"#720808", "label":"Magento"},
+        {"index":0.4, "value":9,  "fill":"#811313", "label":"Drupal"},
+        {"index":0.5, "value":8,  "fill":"#922121", "label":"SugarCRM"},
+        {"index":0.6, "value":7,  "fill":"#a53333", "label":"Moodle"},
+        {"index":0.7, "value":6,  "fill":"#ba4b4b", "label":"SalesForce"},
+        {"index":0.8, "value":5,  "fill":"#c76464", "label":"WordPress"},
+        {"index":0.9, "value":5,  "fill":"#c57e7e", "label":"New 1"},
+        {"index":1.0, "value":4,  "fill":"#d89c9c", "label":"New 2"},
+        {"index":1.1, "value":3,  "fill":"#eec0c0", "label":"New 3"},
+        {"index":1.2, "value":2,  "fill":"#ffe7e7", "label":"New 4"}
     ]
 };
 
@@ -98,51 +110,26 @@ function drawBarCircleChart(data,target,values,labels){
 setTimeout(function(){drawBarCircleChart(chartData.barCircleWeb,"#circleBar-web-chart","#circleBar-web-values","#circleBar-web-labels")},500);
 setTimeout(function(){drawBarCircleChart(chartData.barCircleMvc,"#circleBar-mvc-chart","#circleBar-mvc-values","#circleBar-mvc-labels")},1000);
 setTimeout(function(){drawBarCircleChart(chartData.barCircleJs,"#circleBar-js-chart","#circleBar-js-values","#circleBar-js-labels")},1500);
+setTimeout(function(){drawBarCircleChart(chartData.barCirclePlatforms,"#circleBar-flatforms-chart","#circleBar-flatforms-values","#circleBar-flatforms-labels")},2000);
 
-d3.select("#circleBar-web-icon")
-    .transition()
-    .delay(500)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-web-text")
-    .transition()
-    .delay(750)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-web-clipLabels")
-    .transition()
-    .delay(600)
-    .duration(1250)
-    .attr("height","150");
 
-d3.select("#circleBar-mvc-icon")
-    .transition()
-    .delay(1000)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-mvc-text")
-    .transition()
-    .delay(1250)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-mvc-clipLabels")
-    .transition()
-    .delay(1200)
-    .duration(1250)
-    .attr("height","150");
+d3.select("#circleBar-web-icon").transition().delay(500).duration(500).attr("opacity","1");
+d3.select("#circleBar-web-text").transition().delay(750).duration(500).attr("opacity","1");
+d3.select("#circleBar-web-clipLabels").transition().delay(600).duration(1250).attr("height","150");
 
-d3.select("#circleBar-js-icon")
-    .transition()
-    .delay(1500)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-js-text")
-    .transition()
-    .delay(1750)
-    .duration(500)
-    .attr("opacity","1");
-d3.select("#circleBar-js-clipLabels")
-    .transition()
-    .delay(1600)
-    .duration(1250)
-    .attr("height","150");
+d3.select("#circleBar-mvc-icon").transition().delay(1000).duration(500).attr("opacity","1");
+d3.select("#circleBar-mvc-text").transition().delay(1250).duration(500).attr("opacity","1");
+d3.select("#circleBar-mvc-clipLabels").transition().delay(1200).duration(1250).attr("height","150");
+
+d3.select("#circleBar-js-icon").transition().delay(1500).duration(500).attr("opacity","1");
+d3.select("#circleBar-js-text").transition().delay(1750).duration(500).attr("opacity","1");
+d3.select("#circleBar-js-clipLabels").transition().delay(1600).duration(1250).attr("height","150");
+
+d3.select("#circleBar-flatforms-icon").transition().delay(2000).duration(500).attr("opacity","1");
+d3.select("#circleBar-flatforms-text").transition().delay(2250).duration(500).attr("opacity","1");
+d3.select("#circleBar-flatforms-clipLabels").transition().delay(2100).duration(1250).attr("height","150");
+
+
+
+
+
