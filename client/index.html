@@ -1,5 +1,5 @@
-
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
     <link rel="icon" href="images/favicon.ico" />
     <title>Guido Alloatti - Bio</title>
 </head>
@@ -7,7 +7,7 @@
 <body>
 </body>
 
-<template name="Content">
+   <template name="Content">
     <div id="top"></div>
     <div id="page-wrapper">
         {{> Header}}
@@ -16,9 +16,12 @@
         {{> Background}}     
         {{> Experience}}
         {{> Skills}}
+      <!-- 
+        {{> Skillset}}
+         -->
         {{> Contact}}
         {{> carousel}}
         {{> Footer}}
     </div>
     <div id="bottom"></div>
-</template>
+  </template> 

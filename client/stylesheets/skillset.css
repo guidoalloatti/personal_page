@@ -1,0 +1,32 @@
+#circleBar-web-text,
+#circleBar-js-text,
+#circleBar-mvc-text{
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size:16px;
+    fill:#000;
+}
+#circleBar-web-labels tspan,
+#circleBar-js-labels tspan,
+#circleBar-mvc-labels tspan {
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size:12px;
+    fill:#6D6E71;
+}
+
+#circleBar-web-values tspan,
+#circleBar-js-values tspan,
+#circleBar-mvc-values tspan {
+    font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    fill:#000;
+}
+#circleBar-web-values tspan {
+    fill: #7D3A4D;
+}
+#circleBar-mvc-values tspan {
+    fill: #7D3A4D;
+}
+#circleBar-js-values tspan {
+    fill: #7D3A4D;
+}

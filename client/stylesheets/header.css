@@ -5,12 +5,12 @@
 }
 .english-lang.small {
 	right: 45px;
-    top: -10px;
+    top: -20px;
     position: absolute;
 }
 .spanish-lang.small {
 	right: 1px;
-    top: -10px;
+    top: -20px;
     position: absolute;
 }
 .go-top-element.small {
@@ -61,7 +61,7 @@
 }
 
 .language-holder {
-	margin-top: -60px;
+	margin-top: -30px;
 	position: fixed;
 	opacity: 1;	
   	z-index: 1003;

@@ -77,6 +77,12 @@ body {
 	margin-left: 1%;
 }
 
+.left {
+	top: 20%;
+	position: relative;
+	text-align: left;
+}
+
 .left-float {
 	float: left;
 	padding-left: 3%;
@@ -109,7 +115,6 @@ body {
 	top: 500px;
 	left: 500px;
 	font-size: 24px;
-
 }
 
 #content {
@@ -118,8 +123,8 @@ body {
 
 #name_over_bg {
 	position: absolute;
-	top: 435px;
-	right: 20%;
+	top: 415px;
+	right: 10%;
 	z-index: 900;
 	text-align: center;
 	font-size: 48px;
@@ -134,7 +139,6 @@ body {
 	height: 100%;
 	margin-bottom: 0;
 }
-
 
 .btn {
   background: #3498db;
@@ -190,5 +194,3 @@ input[type=submit] {
 	-webkit-border-radius: 5px;
 	border-radius: 5px; 
 }
-
-
