@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "about-me":   "ABOUT ME",
+    "background": "BACKGROUND",
+    "experience": "EXPERIENCE",
+    "skills":     "SKILLS",
+    "contact":    "CONTACT",
+    "visualizer": "VISUALIZER"
+  },
+  "hero": {
+    "label": "senior software engineer",
+    "phrases": [
+      "I write code that lasts.",
+      "I build teams that ship.",
+      "I integrate AI into everything.",
+      "15+ years of getting things done."
+    ]
+  },
+  "about": {
+    "label": "About Me",
+    "title": "Code that scales. Teams that ship.",
+    "role": "Senior Software Engineer · AI-Driven Builder · Tech Lead",
+    "bio1": "With 15+ years of experience, I design, build, and scale high-quality web applications and engineering systems — operating across the full development lifecycle from architecture to hands-on coding. I've taken on roles such as Tech Lead, Project Manager, and Software Architect, always focused on delivering robust, maintainable solutions aligned with real business impact.",
+    "bio2": "Pragmatic, product-oriented, and impact-driven. I specialize in AI-augmented engineering workflows, integrating LLMs into real products, and leading cross-functional teams toward clear, high-impact goals.",
+    "location": "Rosario, Santa Fe, Argentina"
+  },
+  "background": {
+    "label": "Background",
+    "title": "15+ years of craft.",
+    "cards": {
+      "career": {
+        "title": "Engineering Career",
+        "content": "15+ years across startups, agencies, and enterprise — always at the intersection of software development and technical leadership. Worldwide scope, cross-cultural teams, high-impact products."
+      },
+      "roles": {
+        "title": "Roles & Responsibilities",
+        "items": [
+          "Senior Software Engineer",
+          "Tech Lead & Engineering Manager",
+          "Software Architect",
+          "Project Manager",
+          "Certified Scrum Master & Coach",
+          "Technical Interviewer"
+        ]
+      },
+      "ai": {
+        "title": "AI Expertise",
+        "content": "Applied AI practitioner — not theoretical. Daily use of Claude, GPT, Cursor, and Copilot. Building AI-assisted workflows: code generation, automation pipelines, scraping, and LLM integration into real products."
+      },
+      "methodologies": {
+        "title": "Methodologies",
+        "items": [
+          "Agile · Scrum · Kanban",
+          "Clean architecture & DDD",
+          "CI/CD & TDD",
+          "System design & scalability",
+          "AI-augmented engineering"
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "content": "BSc Systems Engineering · Universidad Nacional de Rosario. Certified Scrum Master, Scrum Alliance. Continuous learner — conferences, courses, and hands-on experimentation."
+      },
+      "global": {
+        "title": "Global Experience",
+        "items": [
+          "English · full professional",
+          "Spanish · native",
+          "NZ, USA, ARG — cross-cultural teams",
+          "Remote-first for 7+ years",
+          "Amazon · Ring · Flowspace"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Where I've worked.",
+    "showMore": "↓ Earlier experience",
+    "showLess": "↑ Show less",
+    "jobs": {
+      "flowspace": {
+        "items": [
+          "Developed and maintained warehouse operations software — inventory management, order fulfillment, and automation.",
+          "Designed integrations with third-party logistics providers (3PLs) for seamless shipping workflows.",
+          "Translated operational requirements into scalable software solutions alongside warehouse teams."
+        ]
+      },
+      "ring-amazon": {
+        "items": [
+          "Contributed to backend and frontend services connecting users and public safety agencies.",
+          "Maintained community programs and public safety platforms (Ring ecosystem).",
+          "Operated across AWS: Lambda, EC2, RDS, CDK, EventBridge, SQS, SNS, CloudFormation."
+        ]
+      },
+      "ring": {
+        "items": [
+          "Lead engineer for Neighbors — hyper-local video sharing for crime & safety, powered by PostGIS geolocation.",
+          "Built microservices connecting IoT devices to client apps: Ruby, Go, Node.js, React.",
+          "Built Retail Explorers backend (Rails) and React admin tools for location-based iOS/Android field surveys.",
+          "Progression: Retail Backend Lead → Neighbors Web Team → Senior Software Engineer."
+        ]
+      },
+      "mobomo": {
+        "items": [
+          "Led web and mobile development for federal agencies, Fortune 1000 companies, and startups.",
+          "Architected a multipurpose employee portal and dashboard with microservices architecture.",
+          "Key projects: RGS Energy Solar365, The Bozzuto Group, Gallup."
+        ]
+      },
+      "kathmandu": {
+        "items": [
+          "Led 10-person cross-cultural team across frontend, backend, and QA.",
+          "Full-stack PHP on Magento Enterprise Edition."
+        ]
+      },
+      "velocity": {
+        "items": [
+          "Managed teams for G2 Webservices, Kinnser, WebAssign, and iContact — CI, TDD, automation.",
+          "Led development for Sungevity (CA): SugarCRM 5.5, CakePHP portal, load-balanced architecture."
+        ]
+      },
+      "accenture": {
+        "items": [
+          "Configuration testing and implementation for multinational clients. Supervised junior developers."
+        ]
+      },
+      "latinux": {
+        "items": [
+          "Projects in C, PHP, Python, Perl, C#: stock management, CCTV, traffic visualizer, distributed POS."
+        ]
+      },
+      "elepe": {
+        "items": [
+          "Part-time while at university. AS/400, Cool Plex. Roles: Dev, QA, Analyst."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Languages & frameworks.",
+    "groups": {
+      "languages":  "Dev Languages",
+      "frameworks": "Frameworks & APIs",
+      "data":       "Data & Cloud",
+      "ai":         "AI & Tooling"
+    }
+  },
+  "contact": {
+    "label":       "Contact",
+    "title":       "Let's talk.",
+    "tagline":     "Have a project, a role, or just want to connect? I respond fast.",
+    "namePlaceholder":    "Name",
+    "emailPlaceholder":   "Email",
+    "messagePlaceholder": "Tell me about your project, role, or idea...",
+    "send": "Send Message",
+    "sent": "Message sent — I'll be in touch soon."
+  },
+  "visualizer": {
+    "label": "Tech Stack",
+    "title": "Tools of the trade.",
+    "legend": {
+      "languages":  "Languages",
+      "frameworks": "Frameworks",
+      "data":       "Data & Cloud",
+      "ai":         "AI & LLMs"
+    }
+  },
+  "footer": {
+    "subtitle":   "Senior Software Engineer · AI Builder",
+    "copyright":  "© {{year}} Guido Alloatti"
+  }
+}

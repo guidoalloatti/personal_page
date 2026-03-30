@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "about-me":   "SOBRE MÍ",
+    "background": "PERFIL",
+    "experience": "EXPERIENCIA",
+    "skills":     "HABILIDADES",
+    "contact":    "CONTACTO",
+    "visualizer": "TECNOLOGÍAS"
+  },
+  "hero": {
+    "label": "ingeniero de software senior",
+    "phrases": [
+      "Escribo código que dura.",
+      "Construyo equipos que entregan.",
+      "Integro IA en todo.",
+      "15+ años haciendo que las cosas sucedan."
+    ]
+  },
+  "about": {
+    "label": "Sobre Mí",
+    "title": "Código que escala. Equipos que entregan.",
+    "role": "Ingeniero de Software Senior · Constructor con IA · Tech Lead",
+    "bio1": "Con más de 15 años de experiencia, diseño, construyo y escalo aplicaciones web de alta calidad y sistemas de ingeniería — operando en todo el ciclo de vida del desarrollo, desde la arquitectura hasta la programación directa. He asumido roles de Tech Lead, Project Manager y Arquitecto de Software, siempre enfocado en soluciones robustas y mantenibles con impacto real en el negocio.",
+    "bio2": "Pragmático, orientado al producto e impulsado por resultados. Me especializo en flujos de trabajo de ingeniería potenciados por IA, integración de LLMs en productos reales y liderazgo de equipos multifuncionales hacia objetivos de alto impacto.",
+    "location": "Rosario, Santa Fe, Argentina"
+  },
+  "background": {
+    "label": "Perfil",
+    "title": "15+ años de oficio.",
+    "cards": {
+      "career": {
+        "title": "Carrera en Ingeniería",
+        "content": "Más de 15 años en startups, agencias y empresas — siempre en la intersección del desarrollo de software y el liderazgo técnico. Alcance global, equipos multiculturales, productos de alto impacto."
+      },
+      "roles": {
+        "title": "Roles y Responsabilidades",
+        "items": [
+          "Ingeniero de Software Senior",
+          "Tech Lead y Gerente de Ingeniería",
+          "Arquitecto de Software",
+          "Gerente de Proyectos",
+          "Scrum Master Certificado y Coach",
+          "Entrevistador Técnico"
+        ]
+      },
+      "ai": {
+        "title": "Expertise en IA",
+        "content": "Practicante de IA aplicada, no teórica. Uso diario de Claude, GPT, Cursor y Copilot. Construyendo flujos de trabajo asistidos por IA: generación de código, pipelines de automatización, scraping e integración de LLMs en productos reales."
+      },
+      "methodologies": {
+        "title": "Metodologías",
+        "items": [
+          "Agile · Scrum · Kanban",
+          "Arquitectura limpia y DDD",
+          "CI/CD y TDD",
+          "Diseño de sistemas y escalabilidad",
+          "Ingeniería potenciada por IA"
+        ]
+      },
+      "education": {
+        "title": "Educación",
+        "content": "Lic. en Sistemas · Universidad Nacional de Rosario. Scrum Master Certificado, Scrum Alliance. Aprendizaje continuo — conferencias, cursos y experimentación práctica."
+      },
+      "global": {
+        "title": "Experiencia Global",
+        "items": [
+          "Inglés · nivel profesional completo",
+          "Español · nativo",
+          "NZ, USA, ARG — equipos multiculturales",
+          "Remote-first por más de 7 años",
+          "Amazon · Ring · Flowspace"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "label": "Experiencia",
+    "title": "Dónde he trabajado.",
+    "showMore": "↓ Experiencia anterior",
+    "showLess": "↑ Ver menos",
+    "jobs": {
+      "flowspace": {
+        "items": [
+          "Desarrollé y mantuve software de operaciones de almacén — gestión de inventario, cumplimiento de pedidos y automatización.",
+          "Diseñé integraciones con proveedores logísticos externos (3PLs) para flujos de trabajo de envío sin fricciones.",
+          "Traduje requerimientos operativos en soluciones de software escalables junto a equipos de almacén."
+        ]
+      },
+      "ring-amazon": {
+        "items": [
+          "Contribuí a servicios de backend y frontend que conectan usuarios con agencias de seguridad pública.",
+          "Mantuve programas comunitarios y plataformas de seguridad pública (ecosistema Ring).",
+          "Operé en AWS: Lambda, EC2, RDS, CDK, EventBridge, SQS, SNS, CloudFormation."
+        ]
+      },
+      "ring": {
+        "items": [
+          "Ingeniero principal de Neighbors — video sharing hiperlocal para crimen y seguridad, con geolocalización PostGIS.",
+          "Desarrollé microservicios que conectan dispositivos IoT con apps de cliente: Ruby, Go, Node.js, React.",
+          "Construí el backend de Retail Explorers (Rails) y herramientas admin en React para surveys de campo.",
+          "Progresión: Retail Backend Lead → Neighbors Web Team → Senior Software Engineer."
+        ]
+      },
+      "mobomo": {
+        "items": [
+          "Lideré desarrollo web y mobile para agencias federales, empresas Fortune 1000 y startups.",
+          "Arquitecté un portal de empleados multipropósito y dashboard con arquitectura de microservicios.",
+          "Proyectos clave: RGS Energy Solar365, The Bozzuto Group, Gallup."
+        ]
+      },
+      "kathmandu": {
+        "items": [
+          "Lideré un equipo multicultural de 10 personas en frontend, backend y QA.",
+          "PHP full-stack sobre Magento Enterprise Edition."
+        ]
+      },
+      "velocity": {
+        "items": [
+          "Gestioné equipos para G2 Webservices, Kinnser, WebAssign e iContact — CI, TDD, automatización.",
+          "Lideré el desarrollo para Sungevity (CA): SugarCRM 5.5, portal en CakePHP, arquitectura con carga balanceada."
+        ]
+      },
+      "accenture": {
+        "items": [
+          "Testing de configuración e implementación para clientes multinacionales. Supervisé desarrolladores junior."
+        ]
+      },
+      "latinux": {
+        "items": [
+          "Proyectos en C, PHP, Python, Perl, C#: gestión de stock, CCTV, visualizador de tráfico, POS distribuido."
+        ]
+      },
+      "elepe": {
+        "items": [
+          "Tiempo parcial durante la universidad. AS/400, Cool Plex. Roles: Dev, QA, Analista."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "label": "Habilidades",
+    "title": "Lenguajes y frameworks.",
+    "groups": {
+      "languages":  "Lenguajes",
+      "frameworks": "Frameworks y APIs",
+      "data":       "Datos y Cloud",
+      "ai":         "IA y Herramientas"
+    }
+  },
+  "contact": {
+    "label":       "Contacto",
+    "title":       "Hablemos.",
+    "tagline":     "¿Tenés un proyecto, un rol o simplemente querés conectar? Respondo rápido.",
+    "namePlaceholder":    "Nombre",
+    "emailPlaceholder":   "Email",
+    "messagePlaceholder": "Contame sobre tu proyecto, rol o idea...",
+    "send": "Enviar mensaje",
+    "sent": "Mensaje enviado — te respondo pronto."
+  },
+  "visualizer": {
+    "label": "Stack Tecnológico",
+    "title": "Herramientas del oficio.",
+    "legend": {
+      "languages":  "Lenguajes",
+      "frameworks": "Frameworks",
+      "data":       "Datos y Cloud",
+      "ai":         "IA y LLMs"
+    }
+  },
+  "footer": {
+    "subtitle":   "Ingeniero de Software Senior · Constructor con IA",
+    "copyright":  "© {{year}} Guido Alloatti"
+  }
+}
