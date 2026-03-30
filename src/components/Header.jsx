@@ -68,6 +68,35 @@ function HamburgerIcon({ open }) {
   );
 }
 
+function timeAgo(date) {
+  const diff = Math.floor((Date.now() - date.getTime()) / 1000);
+  if (diff < 60) return 'just now';
+  if (diff < 3600) { const m = Math.floor(diff / 60); return `${m}m ago`; }
+  if (diff < 86400) { const h = Math.floor(diff / 3600); return `${h}h ago`; }
+  const d = Math.floor(diff / 86400);
+  return `${d}d ago`;
+}
+
+function BuildTooltip() {
+  const [, setTick] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setTick(n => n + 1), 60000);
+    return () => clearInterval(id);
+  }, []);
+
+  const date = new Date(__BUILD_DATE__);
+  const dateStr = date.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+  const timeStr = date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+
+  return (
+    <div className="build-tooltip">
+      <div className="build-tooltip-row"><span className="build-tooltip-label">version</span><span>v{__BUILD_VERSION__}</span></div>
+      <div className="build-tooltip-row"><span className="build-tooltip-label">commit</span><span>{__BUILD_HASH__}</span></div>
+      <div className="build-tooltip-row"><span className="build-tooltip-label">deployed</span><span>{dateStr} {timeStr} <span className="build-ago">({timeAgo(date)})</span></span></div>
+    </div>
+  );
+}
+
 function scrollTo(id) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 }
@@ -162,11 +191,7 @@ export default function Header() {
                     <circle cx="7" cy="4" r="0.5" fill="currentColor" stroke="none" />
                   </svg>
                 </span>
-                <div className="build-tooltip">
-                  <div className="build-tooltip-row"><span className="build-tooltip-label">version</span><span>v{__BUILD_VERSION__}</span></div>
-                  <div className="build-tooltip-row"><span className="build-tooltip-label">commit</span><span>{__BUILD_HASH__}</span></div>
-                  <div className="build-tooltip-row"><span className="build-tooltip-label">deployed</span><span>{new Date(__BUILD_DATE__).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</span></div>
-                </div>
+                <BuildTooltip />
               </div>
             </div>
           </nav>

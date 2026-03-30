@@ -348,6 +348,10 @@ section:not(#hero).in-view .contact-form-wrap {
   min-width: 52px;
 }
 
+.build-ago {
+  opacity: 0.5;
+}
+
 .theme-btn {
   display: flex;
   align-items: center;
@@ -412,7 +416,7 @@ section:not(#hero).in-view .contact-form-wrap {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('images/bg1.jpg');
+  background-image: url('/images/bg1.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.12) saturate(0.4);
