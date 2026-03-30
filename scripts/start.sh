@@ -6,16 +6,33 @@ ROOT="$SCRIPT_DIR/.."
 PID_FILE="$ROOT/.dev.pid"
 LOG_FILE="$ROOT/.dev.log"
 
-if [ -f "$PID_FILE" ]; then
-  PID=$(cat "$PID_FILE")
-  if kill -0 "$PID" 2>/dev/null; then
-    echo "Dev server already running (PID $PID)"
-    echo "Run scripts/stop.sh to stop it first."
-    exit 1
-  else
+# Always kill any existing server first
+kill_server() {
+  if [ -f "$PID_FILE" ]; then
+    PID=$(cat "$PID_FILE")
+    if kill -0 "$PID" 2>/dev/null; then
+      echo "Stopping existing dev server (PID $PID)..."
+      kill "$PID" 2>/dev/null || true
+      for i in $(seq 1 10); do
+        kill -0 "$PID" 2>/dev/null || break
+        sleep 0.5
+      done
+      if kill -0 "$PID" 2>/dev/null; then
+        kill -9 "$PID" 2>/dev/null || true
+      fi
+    fi
     rm -f "$PID_FILE"
   fi
-fi
+
+  # Kill any orphaned vite processes
+  PIDS=$(pgrep -f "vite" 2>/dev/null | grep -v "^$$" || true)
+  if [ -n "$PIDS" ]; then
+    echo "Killing orphaned vite process(es): $PIDS"
+    kill -9 $PIDS 2>/dev/null || true
+  fi
+}
+
+kill_server
 
 cd "$ROOT"
 
