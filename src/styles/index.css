@@ -288,6 +288,66 @@ section:not(#hero).in-view .contact-form-wrap {
   padding-left: 20px;
 }
 
+.build-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.build-badge-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: none;
+  color: var(--text-muted, #888);
+  opacity: 0.5;
+  cursor: default;
+  transition: opacity 0.15s, border-color 0.15s;
+  padding: 0;
+}
+
+.build-badge:hover .build-badge-icon {
+  opacity: 1;
+  border-color: var(--border);
+}
+
+.build-tooltip {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--surface, #1a1a1a);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--text-muted, #aaa);
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  z-index: 100;
+  line-height: 1.8;
+}
+
+.build-badge:hover .build-tooltip {
+  display: block;
+}
+
+.build-tooltip-row {
+  display: flex;
+  gap: 8px;
+}
+
+.build-tooltip-label {
+  opacity: 0.5;
+  min-width: 52px;
+}
+
 .theme-btn {
   display: flex;
   align-items: center;

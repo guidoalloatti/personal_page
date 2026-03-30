@@ -1,5 +1,5 @@
 {
-  "name": "personal_page_react",
+  "name": "personal_page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo git@github.com:guidoalloatti/guidoalloatti.github.io.git"
+    "deploy": "gh-pages -b master -d dist --repo git@github.com:guidoalloatti/guidoalloatti.github.io.git"
   },
   "dependencies": {
     "i18next": "^26.0.1",

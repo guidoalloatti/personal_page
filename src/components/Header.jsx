@@ -154,6 +154,20 @@ export default function Header() {
                 <span className="lang-sep">/</span>
                 <button className={`lang-btn ${i18n.language === 'es' ? 'active' : ''}`} onClick={() => i18n.changeLanguage('es')}>ES</button>
               </div>
+              <div className="build-badge">
+                <span className="build-badge-icon" aria-label="Build info">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="7" cy="7" r="6" />
+                    <line x1="7" y1="6" x2="7" y2="10" />
+                    <circle cx="7" cy="4" r="0.5" fill="currentColor" stroke="none" />
+                  </svg>
+                </span>
+                <div className="build-tooltip">
+                  <div className="build-tooltip-row"><span className="build-tooltip-label">version</span><span>v{__BUILD_VERSION__}</span></div>
+                  <div className="build-tooltip-row"><span className="build-tooltip-label">commit</span><span>{__BUILD_HASH__}</span></div>
+                  <div className="build-tooltip-row"><span className="build-tooltip-label">deployed</span><span>{new Date(__BUILD_DATE__).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</span></div>
+                </div>
+              </div>
             </div>
           </nav>
 
