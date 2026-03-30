@@ -61,3 +61,11 @@ npm install
 npm run dev      # http://localhost:5173
 npm run build    # production build → dist/
 ```
+
+## Deploy
+
+```bash
+npm run deploy   # builds and pushes dist/ to master of guidoalloatti/guidoalloatti.github.io
+```
+
+Live at: https://guidoalloatti.github.io
